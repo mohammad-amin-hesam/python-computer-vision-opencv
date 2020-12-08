@@ -12,7 +12,7 @@ M = np.ones(image.shape, dtype="uint8") * 75
 added = cv2.add(image, M)
 cv2.imshow("Added", added)
 
-# Likewise we can also subtract
+# Likewise we can also subtract`
 # Notice the decrease in brightness
 subtracted = cv2.subtract(image, M)
 cv2.imshow("Subtated", subtracted)
